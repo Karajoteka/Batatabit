@@ -13,7 +13,8 @@
   --soft-blue: #E7F5FF;
   --warm-black: #201E1C;
   --black: #282623;
-  --grey: #BABABA;
+  --grey: #BABABA; 
+  --dark-grey: #757575;
   --off-white: #FAF8F7;
   --just-white: #fff;
 }
@@ -108,4 +109,29 @@ main {
   min-width: 288px;
   max-width: 900px;
   margin: 0 auto;
+}
+.main-exchange-container .backgroundImg {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  background-image: url('./assets/imgs/bitcoin.svg');
+  /* Para asegurarnos que la imagen no se va a deformar nunca o cambiar de posición */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.main-exchange-container h2 {
+  margin-bottom: 30px;
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 2.6rem;
+  color: var(--black);
+}
+.main-exchange-container p {
+  margin-bottom: 30px;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.6rem;
+  color: var(--dark-grey);
 }
