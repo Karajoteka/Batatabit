@@ -216,3 +216,20 @@ main {
   background-position: center;
   background-repeat: no-repeat;
 }
+.currency-table--date, .commission-table--date {
+  width: max-content;
+  height: 30px;
+  margin: 15px auto 0;
+  padding: 8px;
+  background-color: var(--soft-orange);
+  border-radius: 8px;
+}
+.commission-table--date {
+  background-color: var(--soft-blue);
+}
+.currency-table--date p, .commission-table--date p {
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  color: var(--warm-black);
+}
