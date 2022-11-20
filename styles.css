@@ -361,8 +361,19 @@ main {
   line-height: 1.8rem;
   color: var(--dark-grey);
 }
+.plans-container--slider {
+  display: flex;
+  /* Nuevo módulo de Flex para dar espacio entre elementos. Es la separación horizontal que le hemos dado entre tarjetas */
+  gap: 10px;
+  height: 316px;
+  overflow-x: scroll;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x proximity;
+}
 .plans-container--card {
   position: relative;
+  /* Esto hace que cuando estás haciendo scroll, te sitúe cada tarjeta en el centro de la pantalla, como si tuviera un imán */
+  scroll-snap-align: center;
   width: 70%;
   min-width: 230px;
   max-width: 300px;
@@ -373,11 +384,11 @@ main {
   border-radius: 15px;
   box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
 }
-.header-card {
+.header-card, .recommended {
   position: absolute;
   width: 120px;
   height: 31px;
-  padding: 6px;
+  padding: 8px;
   top: -15px;
   left: calc(50% - 60px);
   font-family: 'Inter';
