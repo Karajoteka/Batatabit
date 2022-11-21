@@ -444,6 +444,9 @@ main {
   line-height: 1.8rem;
   color: var(--black);
 }
+.plan-card--ca:hover {
+  cursor: pointer;
+}
 .plan-card--ca span {
   display: inline-block;
   width: 20px;
@@ -492,4 +495,7 @@ footer .left ul {
 .left a {
   text-decoration: none;
   color: var(--just-white);
+}
+.left a:hover {
+  text-decoration: underline;
 }
