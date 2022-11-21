@@ -139,7 +139,7 @@ main {
 }
 .main-tables-container {
   display: flex;
-  gap: 50px;
+  gap: 25px;
   padding: 0 40px;
   height: 370px;
   overflow-x: scroll;
