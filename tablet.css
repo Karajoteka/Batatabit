@@ -16,4 +16,5 @@
 .plans-container--slider {
   width: 930px;
   margin: 0 auto;
+  overflow-x: hidden;
 }

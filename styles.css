@@ -141,7 +141,7 @@ main {
   display: flex;
   gap: 25px;
   padding: 0 40px;
-  height: 370px;
+  height: 380px;
   overflow-x: scroll;
   overscroll-behavior-x: contain;
   scroll-snap-type: x proximity;
